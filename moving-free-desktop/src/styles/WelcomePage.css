@@ -1,0 +1,23 @@
+.mainContainer {
+      background-image: url(../assests/photo01.jpeg);
+      height: 915px; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -22px;
+}
+
+.titleContainer {
+  padding-top: 40px;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.rentAContainer {
+  margin-bottom: 50px;
+}
+
+
+

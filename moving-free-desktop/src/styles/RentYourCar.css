@@ -1,0 +1,31 @@
+.title {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.select {
+  margin-bottom: 40px;
+}
+
+.simpleInput {
+  margin-bottom: 25px;
+}
+
+.fileInput {
+  margin-left: 43%;
+  margin-bottom: 22px;
+}
+
+.buttonSubmit{
+  margin-right: 10px;
+}
+
+.buttonWelcome{
+  margin-left: 10px;
+}
+
+.image {
+  max-height: 300px;
+  max-width: 300px;
+  margin-bottom: 25px;
+}

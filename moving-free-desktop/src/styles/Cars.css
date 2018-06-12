@@ -1,0 +1,17 @@
+.image {
+  max-height: 300px;
+  max-width: 300px;
+  margin-bottom: 25px;
+}
+
+.button {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.carsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
