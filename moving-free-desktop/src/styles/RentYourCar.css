@@ -9,11 +9,15 @@
 
 .simpleInput {
   margin-bottom: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
-
-.fileInput {
-  margin-left: 43%;
-  margin-bottom: 22px;
+.selectInput {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  max-width: 1180px;
 }
 
 .buttonSubmit{
@@ -27,5 +31,36 @@
 .image {
   max-height: 300px;
   max-width: 300px;
+  margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.imputContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .simpleInput {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .selectInput {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 375px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .selectInput {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    max-width: 644px;
+  }
 }

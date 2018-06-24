@@ -54,12 +54,12 @@ class RentACar extends Component {
     return(
       <div>
         <div className="title">
-          <h3>Rent A Car Component</h3>
+          <h3>Rent A Car</h3>
         </div>
 
         <Calendar className="calendar" onChange={this.onDayPress} />
 
-        <Input type="select" name="select" onChange={this.updateCity}>
+        <Input className="select" type="select" name="select" onChange={this.updateCity}>
           <option value="Barcelona">Barcelona</option>
           <option value="Helsinki">Helsinki</option>
           <option value="Miami">Miami</option>  

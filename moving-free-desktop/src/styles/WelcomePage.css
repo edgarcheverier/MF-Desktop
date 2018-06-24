@@ -19,5 +19,17 @@
   margin-bottom: 50px;
 }
 
+.facebookLoginButton{
+  margin-top: 25px;
+}
 
-
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    background-image: url(../assests/photo01.jpeg);
+    height: 715px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -22px;
+  }
+}

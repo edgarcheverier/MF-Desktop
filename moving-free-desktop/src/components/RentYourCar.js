@@ -4,7 +4,7 @@ import '../styles/RentYourCar.css'
 import Helpers from '../firebase/helper';
 import TriggerImage from '../firebase/fetchImage';
 
-import { Button, Media, Input } from 'reactstrap';
+import { Button, Media, Input, CustomInput } from 'reactstrap';
 
 const uuidv4 = require('uuid/v4');
 let uid = uuidv4();
@@ -79,23 +79,23 @@ class RentYourCar extends Component {
       <div>
 
         <div className="title">
-          <h3>Rent Your Car Component</h3>
+          <h3>Rent Your Car</h3>
         </div>
 
-        <div className="select">
-          <Input type="select" name="select" onChange={this.handleSelect}>
+          <Input className="selectInput" type="select" name="select" onChange={this.handleSelect}>
             <option value="Barcelona">Barcelona</option>
             <option valye="Helsinki">Helsinki</option>
             <option value="Miami">Miami</option>  
           </Input>
-        </div>
 
-        <Input className="simpleInput" name="carInfo" type="text" placeholder="Car Info"  onChange={this.handleInputs} />
-        <Input className="simpleInput" name="PriceDay" type="text" placeholder="Price Per Day" onChange={this.handleInputs} />
-        <Input className="simpleInput" name="Name" type="text" placeholder="Name" onChange={this.handleInputs} />
-        <Input className="simpleInput" name="contactInfo" type="text" placeholder="Contact Info" onChange={this.handleInputs} />
-        <label>Pick Images</label>
-        <Input className="fileInput" type="file" onChange={this.handleFile} />
+        <div className="imputContainer">
+          <Input className="simpleInput" name="carInfo" type="text" placeholder="Car Info"  onChange={this.handleInputs} />
+          <Input className="simpleInput" name="PriceDay" type="text" placeholder="Price Per Day" onChange={this.handleInputs} />
+          <Input className="simpleInput" name="Name" type="text" placeholder="Name" onChange={this.handleInputs} />
+          <Input className="simpleInput" name="contactInfo" type="text" placeholder="Contact Info" onChange={this.handleInputs} />
+          <label>Pick An Images</label>
+          <CustomInput className="simpleInput"  type="file" name="customFile" onChange={this.handleFile} />
+        </div>
         <div>
           <Media className="image" object src={this.state.pickerImageForShow} />
         </div>
