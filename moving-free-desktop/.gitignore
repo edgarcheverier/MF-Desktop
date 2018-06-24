@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+src/firebase/firebase.js
 
 # testing
 /coverage
@@ -19,4 +20,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/src/firebase/firebase.js
