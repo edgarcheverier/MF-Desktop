@@ -1,9 +1,5 @@
 # Moving Free 
 
-<p align="center">
-<img style="max-width:100px;max-height:500px;" src="https://firebasestorage.googleapis.com/v0/b/moving-free.appspot.com/o/car%2Fmoving-free-app_opt.png?alt=media&token=1fb1d951-9266-4fd6-8a97-64a9a9890276" />
-</p>
-
 Moving Free Desktop is the desktop version of Moving Free App 
 An app for for helping people that have the car 5 days a week in the garage paying every month for the parking, insurance and maintenance for using the car maybe 4 days per month, because go everyday to the work with the car is usually in a city expensive and uncomfortable.
 
